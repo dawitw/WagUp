@@ -43,11 +43,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Base\Customer.cs" />
+    <Compile Include="Base\AbstractDevice.cs" />
+    <Compile Include="Base\Button.cs" />
+    <Compile Include="Types\CustomerType.cs" />
+    <Compile Include="Types\DeviceFinish.cs" />
+    <Compile Include="Base\Gadget.cs" />
+    <Compile Include="Base\Gear.cs" />
+    <Compile Include="Base\IComponent.cs" />
+    <Compile Include="Base\Lever.cs" />
+    <Compile Include="Base\Light.cs" />
+    <Compile Include="Sale\Order.cs" />
+    <Compile Include="Types\DevicePower.cs" />
+    <Compile Include="Types\DeviceSize.cs" />
+    <Compile Include="Base\Spring.cs" />
+    <Compile Include="Base\Switch.cs" />
+    <Compile Include="Base\Widget.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Identification\IDNumberGenerator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
